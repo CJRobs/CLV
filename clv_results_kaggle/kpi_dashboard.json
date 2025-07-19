@@ -1,0 +1,126 @@
+{
+  "overview": {
+    "total_customers": 5891,
+    "total_clv": 1714851915.5214152,
+    "avg_clv": 291096.9131762715,
+    "median_clv": 154476.46587702626,
+    "clv_std": 364437.039224911
+  },
+  "segments": {
+    "Need Attention": {
+      "count": 791,
+      "total_clv": 33605556.7927496,
+      "avg_clv": 42484.901128634134,
+      "pct_of_total": 13.427261924970294
+    },
+    "Loyal Customers": {
+      "count": 1128,
+      "total_clv": 529480022.4444748,
+      "avg_clv": 469397.18301815144,
+      "pct_of_total": 19.147852656594804
+    },
+    "Promising": {
+      "count": 654,
+      "total_clv": 45617393.728074,
+      "avg_clv": 69751.36655668807,
+      "pct_of_total": 11.101680529621456
+    },
+    "New Customers": {
+      "count": 736,
+      "total_clv": 209093528.87499315,
+      "avg_clv": 284094.4685801537,
+      "pct_of_total": 12.493634357494484
+    },
+    "Potential Loyalists": {
+      "count": 969,
+      "total_clv": 304757747.6374997,
+      "avg_clv": 314507.47950206365,
+      "pct_of_total": 16.448820234255646
+    },
+    "Champions": {
+      "count": 701,
+      "total_clv": 573369212.4557486,
+      "avg_clv": 817930.4029325942,
+      "pct_of_total": 11.89950772364624
+    },
+    "About to Pause": {
+      "count": 912,
+      "total_clv": 18928453.58787526,
+      "avg_clv": 20754.88332003866,
+      "pct_of_total": 15.481242573417076
+    }
+  },
+  "demographics": {
+    "Age": {
+      "0-17": {
+        "count": 218,
+        "avg_clv": 195735.62642069173
+      },
+      "55+": {
+        "count": 372,
+        "avg_clv": 169881.23332024037
+      },
+      "26-35": {
+        "count": 2053,
+        "avg_clv": 339808.4967738604
+      },
+      "46-50": {
+        "count": 531,
+        "avg_clv": 259243.12918386178
+      },
+      "51-55": {
+        "count": 481,
+        "avg_clv": 262480.6492265803
+      },
+      "36-45": {
+        "count": 1167,
+        "avg_clv": 293906.27366907144
+      },
+      "18-25": {
+        "count": 1069,
+        "avg_clv": 284807.2694512792
+      }
+    },
+    "Gender": {
+      "F": {
+        "count": 1666,
+        "avg_clv": 207001.49255790765
+      },
+      "M": {
+        "count": 4225,
+        "avg_clv": 324257.37962602155
+      }
+    },
+    "City_Category": {
+      "A": {
+        "count": 1045,
+        "avg_clv": 411576.5912897636
+      },
+      "C": {
+        "count": 3139,
+        "avg_clv": 176891.13485009153
+      },
+      "B": {
+        "count": 1707,
+        "avg_clv": 427353.8988454451
+      }
+    }
+  },
+  "risk_metrics": {
+    "at_risk_customers": 0,
+    "at_risk_clv": 0.0,
+    "at_risk_pct": 0.0
+  },
+  "growth_metrics": {
+    "growth_customers": 2359,
+    "growth_clv": 559468670.2405668,
+    "avg_frequency": 9195.51382365409
+  },
+  "lifetime_metrics": {
+    "avg_probability_alive": 1.0,
+    "customers_above_50pct": "1000",
+    "avg_clv_3m": 2036.8737493229721,
+    "avg_clv_6m": 4013.843342988527,
+    "avg_clv_12m": 7795.0653393073635
+  }
+}

@@ -1,0 +1,81 @@
+================================================================================
+CUSTOMER LIFETIME VALUE (CLV) EXECUTIVE SUMMARY
+Report Date: 2025-07-19
+================================================================================
+
+📊 KEY PERFORMANCE INDICATORS:
+• Total Customers: 5,891
+• Total CLV: $1,714,851,916
+• Average CLV: $291,096.91
+• Median CLV: $154,476.47
+
+📈 PARETO ANALYSIS:
+• Top 35.6% of customers generate 80% of CLV
+• Top 10% generate $676,183,228
+
+🎯 CUSTOMER SEGMENTS:
+
+Champions:
+  • Customers: 701.0 (11.9%)
+  • Total CLV: $573,369,212 (33.4%)
+  • Avg CLV: $817,930.40
+  • Action: VIP treatment, early access to new products, exclusive rewards
+
+Loyal Customers:
+  • Customers: 1,128.0 (19.1%)
+  • Total CLV: $529,480,022 (30.9%)
+  • Avg CLV: $469,397.18
+  • Action: Loyalty programs, referral incentives, personalized offers
+
+Potential Loyalists:
+  • Customers: 969.0 (16.4%)
+  • Total CLV: $304,757,748 (17.8%)
+  • Avg CLV: $314,507.48
+  • Action: Targeted promotions, engagement campaigns, product recommendations
+
+New Customers:
+  • Customers: 736.0 (12.5%)
+  • Total CLV: $209,093,529 (12.2%)
+  • Avg CLV: $284,094.47
+  • Action: Welcome series, onboarding support, first-purchase incentives
+
+Promising:
+  • Customers: 654.0 (11.1%)
+  • Total CLV: $45,617,394 (2.7%)
+  • Avg CLV: $69,751.37
+  • Action: Limited-time offers, category expansion incentives
+
+Need Attention:
+  • Customers: 791.0 (13.4%)
+  • Total CLV: $33,605,557 (2.0%)
+  • Avg CLV: $42,484.90
+  • Action: Re-engagement campaigns, satisfaction surveys, win-back offers
+
+About to Pause:
+  • Customers: 912.0 (15.5%)
+  • Total CLV: $18,928,454 (1.1%)
+  • Avg CLV: $20,754.88
+  • Action: Monitor
+
+⚠️ RISK ANALYSIS:
+• Customers at risk: 791 (13.4%)
+• CLV at risk: $33,605,557
+• High-value customers with <50% probability alive: 0
+• Potential CLV loss: $0
+
+🚀 GROWTH OPPORTUNITIES:
+• Growth segment customers: 2,359
+• Current CLV: $559,468,670
+• Average purchase frequency: 9195.5
+
+🏆 TOP 10 CUSTOMERS:
+1. ID 1004277: $4,916,076.34 (Champions, 105369.09 purchases)
+2. ID 1002909: $4,088,055.62 (Champions, 75777.56 purchases)
+3. ID 1000549: $3,467,683.77 (Champions, 63107.23 purchases)
+4. ID 1004448: $3,239,313.28 (Champions, 65662.45 purchases)
+5. ID 1003032: $3,077,791.98 (Champions, 61265.4 purchases)
+6. ID 1003539: $2,939,569.86 (Champions, 61870.94 purchases)
+7. ID 1003391: $2,499,256.35 (Loyal Customers, 64771.6 purchases)
+8. ID 1000424: $2,422,323.78 (Loyal Customers, 65736.09 purchases)
+9. ID 1002793: $2,418,273.76 (Champions, 49954.68 purchases)
+10. ID 1002304: $2,413,724.24 (Champions, 51576.38 purchases)

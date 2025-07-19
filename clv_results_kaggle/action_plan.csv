@@ -1,0 +1,8 @@
+Segment,Customer_Count,Total_CLV,Avg_CLV,Priority,Recommendation,Expected_Impact
+Champions,701,573369212.4557486,817930.4029325942,2,"VIP treatment, early access to new products, exclusive rewards",Maintain current value
+Need Attention,791,33605556.7927496,42484.901128634134,2,"Re-engagement campaigns, satisfaction surveys, win-back offers",Maintain current value
+Loyal Customers,1128,529480022.4444748,469397.18301815144,3,"Loyalty programs, referral incentives, personalized offers",Maintain current value
+Potential Loyalists,969,304757747.6374997,314507.47950206365,3,"Targeted promotions, engagement campaigns, product recommendations","Increase CLV by $91,427,324"
+Promising,654,45617393.728074,69751.36655668807,4,"Limited-time offers, category expansion incentives","Increase CLV by $13,685,218"
+New Customers,736,209093528.87499315,284094.4685801537,5,"Welcome series, onboarding support, first-purchase incentives",Convert 736 new customers
+About to Pause,912,18928453.58787526,20754.88332003866,6,Monitor,Maintain current value
