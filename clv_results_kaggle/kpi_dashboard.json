@@ -118,9 +118,9 @@
   },
   "lifetime_metrics": {
     "avg_probability_alive": 1.0,
-    "customers_above_50pct": "1000",
-    "avg_clv_3m": 2036.8737493229721,
-    "avg_clv_6m": 4013.843342988527,
-    "avg_clv_12m": 7795.0653393073635
+    "customers_above_50pct": "2000",
+    "avg_clv_3m": 1999.1965475975942,
+    "avg_clv_6m": 3939.5970204664927,
+    "avg_clv_12m": 7650.875622419219
   }
 }

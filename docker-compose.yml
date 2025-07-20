@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  clv-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clv-analysis-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount volumes for persistent data storage
+      - ./api_results:/app/api_results
+      - ./clv_results_kaggle:/app/clv_results_kaggle
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    profiles:
+      - api
+
+  clv-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: clv-streamlit-dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount volumes for persistent data storage
+      - ./dashboard_results:/app/dashboard_results
+      - ./clv_results_kaggle:/app/clv_results_kaggle
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add a reverse proxy (nginx) for production
+  nginx:
+    image: nginx:alpine
+    container_name: clv-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - clv-api
+      - clv-dashboard
+    restart: unless-stopped
+    profiles:
+      - production
+
+networks:
+  default:
+    name: clv-network
